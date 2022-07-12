@@ -26,7 +26,7 @@ elFormLogin.addEventListener("submit", function (evt) {
     .then((dataLogin) => {
       if (dataLogin.token) {
         window.localStorage.setItem("token", dataLogin.token);
-        window.location.replace("index.html");
+        window.location.replace("login.html");
       } else {
         elErrorLogin.textContent = "Bizda bunday ma'lumot mavjud emas";
       }
