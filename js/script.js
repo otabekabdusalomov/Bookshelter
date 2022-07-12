@@ -26,7 +26,7 @@ let page = 1;
 elLogout.addEventListener("click", function (evt) {
   evt.preventDefault();
   window.localStorage.removeItem("token");
-  window.location.replace("login.html");
+  window.location.replace("index.html");
 });
 
 elOverlay.addEventListener("click", () => {
